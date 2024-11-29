@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <h3>Charles Jackson</h3>
+            <nav>
+                <ul class="navbar-links">
+                    <li class="nav-li"><a href="home">Home</a></li>
+                    <li class="nav-li"><a href="about">About</a></li>
+                    <li class="nav-li"><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="hero">
+            <div class="hero-left">
+                <h1 class="hero-heading">Hello, my name is <span class="charlie">Charlie.</span></h1>
+            </div>
+            <div class="hero-right">
+                <img src="https://images.unsplash.com/photo-1523451155533-5f6cba1aecee?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMzg4NTZ8&ixlib=rb-4.0.3&q=85" alt="cgj is a keen viola player" class="hero-image">
+            </div>
+        </main>
+        <div class="section-break"></div>
+        <section class="about-me">
+            <h3>About me</h3>
+            <p>I started learning to code during the long lockdowns in 2021/22. Having really enjoyed the process I enrolled on a 6-month front development bootcamp course at mimo_dev (now Mimo Bootcamp).</p>
+            <p>Now it is time to further develop these skills at La Fosse Academy!</p>
+            <p>Outside of tech, I'm a keen viola player with the Cambridge Concert Orchestra, and am Musical Director for <span class="sitw">Standing in the Wings</span> - a theatre production company based in Northamptonshire and Bedfordshire.</p>
+        </section>
+        <div class="section-break"></div>
+        <section class="lies-lies-lies">
+            <h3 class="lie-heading">Can you spot the lie...?</h3>
+            <p class="lie-pg">Can you guess which of these statements isn't true? Select one option then click 'submit' to see!</p>
+            <form action="" class="form-one">
+                <input type="radio" name ="truthlie" value="salsa">I used to go salsa dancing - Cuban, not LA salsa
+                <br>
+                <input type="radio" name ="truthlie" value="knitting">I'm really into knitting
+                <br>
+                <input type="radio" name ="truthlie" value="cooking">I love to cook curries from scratch - from making the base sauces and dry-roasted spice blends, to accompaniments
+                <br>
+                <input type="submit" class="submit-btn">
+            </form>
+        </section>
+        <div class="section-break"></div>
+        <section class="sign-up-section">
+            <h3>Sign up today for regular news updates!</h3>
+            <form>
+                <label for="">Select your Title:</label>
+                <select name="userTitle" id="userTitle">
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Lord">Lord</option>
+                </select>
+                <br>
+                <label for="firstName">Enter your First Name:</label>
+                <br>
+                <input type="text" id="firstName" placeholder="First Name" name="firstname" required class="sign-up-input">
+                <br>
+                <label for="lastName">Enter your Last Name:</label>
+                <br>
+                <input type="text" id="lastName" placeholder="Last Name" name="lastname" required class="sign-up-input">
+                <br>
+                <label for="userEmail">Enter your email address here:</label>
+                <br>
+                <input type="email" id="userEmail" placeholder="example@useremail.com" name="email" required class="sign-up-input">
+                <br>
+                <p>Select your age:</p>
+                    <input type="radio" name="age" value="0-25" id="option-1">
+                    <label for="option-1">0-25</label>
+                    <input type="radio" name="age" value="26-40" id="option-2">
+                    <label for="option-2">26-40</label>
+                    <input type="radio" name="age" value="41-64" id="option-3">
+                    <label for="option-3">41-64</label>
+                    <input type="radio" name="age" value="65+" id="option-4">
+                    <label for="option-4">65+</label>
+                    <br>
+                    <label for="about-you">Tell us a little about you:</label>
+                    <br>
+                    <textarea name="about-you" id="aboutYou" cols="30" rows="5" placeholder="My favourite hobbies are..." class="sign-up-input"></textarea>
+                    <input type="submit" value="Submit!">
+            </form>
+        </section>
+        <footer class="footer">
+            <p class="footer-text">Copyright &#169 2024 CGJ media UK</p>
+        </footer>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
