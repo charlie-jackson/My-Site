@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
+
         <header class="navbar">
             <h3>Charles Jackson</h3>
             <nav>
@@ -19,36 +22,43 @@
                 </ul>
             </nav>
         </header>
+
         <main class="hero">
             <div class="hero-left">
                 <h1 class="hero-heading">Hello, my name is <span class="charlie">Charlie.</span></h1>
             </div>
             <div class="hero-right">
-                <img src="https://images.unsplash.com/photo-1523451155533-5f6cba1aecee?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMzg4NTZ8&ixlib=rb-4.0.3&q=85" alt="cgj is a keen viola player" class="hero-image">
+                <img src="./images/IMG_1349.jpeg" alt="CGJ is a keen musician" class="hero-image">
             </div>
         </main>
+
         <div class="section-break"></div>
+
         <section class="about-me">
             <h3>About me</h3>
             <p>I started learning to code during the long lockdowns in 2021/22. Having really enjoyed the process I enrolled on a 6-month front development bootcamp course at mimo_dev (now Mimo Bootcamp).</p>
             <p>Now it is time to further develop these skills at La Fosse Academy!</p>
             <p>Outside of tech, I'm a keen viola player with the Cambridge Concert Orchestra, and am Musical Director for <span class="sitw">Standing in the Wings</span> - a theatre production company based in Northamptonshire and Bedfordshire.</p>
         </section>
+
         <div class="section-break"></div>
+
         <section class="lies-lies-lies">
             <h3 class="lie-heading">Can you spot the lie...?</h3>
             <p class="lie-pg">Can you guess which of these statements isn't true? Select one option then click 'submit' to see!</p>
-            <form action="" class="form-one">
-                <input type="radio" name ="truthlie" value="salsa">I used to go salsa dancing - Cuban, not LA salsa
+            <form action="" class="form-one" id="truthLieForm">
+                <input type="radio" name ="truthlie" value="salsa" id="salsa">I used to go salsa dancing - Cuban, not LA salsa
                 <br>
-                <input type="radio" name ="truthlie" value="knitting">I'm really into knitting
+                <input type="radio" name ="truthlie" value="knitting" id="knitting">I'm really into knitting
                 <br>
-                <input type="radio" name ="truthlie" value="cooking">I love to cook curries from scratch - from making the base sauces and dry-roasted spice blends, to accompaniments
+                <input type="radio" name ="truthlie" value="cooking" id="cooking">I love to cook curries from scratch - from making the base sauces and dry-roasted spice blends, to accompaniments
                 <br>
-                <input type="submit" class="submit-btn">
+                <button class="submit-btn" id="submit">Submit</button>
             </form>
         </section>
+
         <div class="section-break"></div>
+
         <section class="sign-up-section">
             <h3>Sign up today for regular news updates!</h3>
             <form>
@@ -88,9 +98,13 @@
                     <input type="submit" value="Submit!">
             </form>
         </section>
+
         <footer class="footer">
             <p class="footer-text">Copyright &#169 2024 CGJ media UK</p>
         </footer>
+
         <script src="script.js" async defer></script>
+
     </body>
+
 </html>
